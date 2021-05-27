@@ -33,7 +33,7 @@ class Quiz {
   play() {
   
     question.hide();
-    background("yellow");
+    background("white");
 
     textSize(30);
     fill("maroon");
@@ -50,7 +50,7 @@ class Quiz {
       text("NOTE: Contestant who answer correct are highlighted in green colour !",180,265);
 
       for (var plr in allContestants) {
-        var correctAns = "2";
+        var correctAns = "1";
 
         if (correctAns === allContestants[plr].answer) {
            fill("green");
